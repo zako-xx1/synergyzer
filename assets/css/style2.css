@@ -1,0 +1,577 @@
+body{
+    background-color: #0f0c1c;
+    letter-spacing: 0.2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #ccc;
+    
+}
+
+#page-wrap{
+    
+    width: 1000px;
+    margin: 0 auto;
+}
+#header{
+    
+    height: 180px;
+    margin-bottom: 10px;
+}
+.logo{
+    padding-top: 70px;
+    margin-bottom: 20px;
+}
+.top-nav ul li{
+    float: left;
+    margin-left: 20px;
+}
+.top-nav ul li a{
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+    transition: color 0.3s ease;
+}
+.top-nav ul li a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #d71400;
+    transition: width 0.3s ease;
+}
+.top-nav ul li a:hover{
+    color: #d71400;
+}
+.top-nav ul li a:hover::after {
+    width: 100%;
+}
+#main-content{
+    
+    margin-bottom: 365px;
+}
+#left-content{
+    width: 663px;
+    float: left;
+}
+.page-info h1{
+    font-size: 50px;
+    color: #d71400;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.page-info p{
+    font-weight: 300;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.posters ul li{
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+#sidebar{
+    width: 315px;
+    float: right;
+}
+.sneak-preview, .ads{
+    margin-bottom: 10px;
+}
+.ads-1 {
+    width: 150px;
+    float: left;
+}
+.ads-2 {
+    width: 150px;
+    float: right;
+}
+
+#footer-col-one{
+
+    width: 315px;
+    float: left;
+    margin-right: 30px;
+}
+#footer-col-two{
+    width: 315px;
+    float: left;
+}
+.footer-info h2{
+    color: #ffffff;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.footer-info h2 span{
+    color: #d71400;
+}
+.footer-info h3 {
+    color: #d71400;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.footer-info p.datetime {
+    color: #8e8e8c;
+    margin-bottom: 10px;
+}
+.footer-info p {
+    color: #ffffff;
+    line-height: 20px;
+    margin-bottom: 10px;
+
+}
+.footer-info p a{
+    color: #d71400;
+    text-decoration: none;
+    position: relative;
+    transition: color 0.3s ease;
+}
+.footer-info p a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #d71400;
+    transition: width 0.3s ease;
+}
+.footer-info p a:hover{
+    text-decoration: none;
+    color: #d71400;
+}
+.footer-info p a:hover::after {
+    width: 100%;
+}
+
+
+
+
+#footer-col-three{
+    width: 315px;
+    float: right;
+}
+.footer-nav ul li{
+    margin-bottom: 10px;
+}
+.footer-nav ul li a {
+    color: #ffffff;
+    font-size: 18px;
+    text-decoration: none;
+    position: relative;
+    transition: color 0.3s ease;
+}
+.footer-nav ul li a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #d71400;
+    transition: width 0.3s ease;
+}
+.footer-nav ul li a:hover {
+    color: #d71400;
+}
+.footer-nav ul li a:hover::after {
+    width: 100%;
+}
+.copyrights p{
+    color: #8e8e8c;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: left;
+}
+/**************************************************************
+    SINGLE CONTRIBUTION PAGE STYLE.
+***************************************************************/
+
+
+.contribution-thumb{
+    background-color: #ffffff;
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+.contribution-details{
+    width: 486px;
+    float: right;
+
+}
+.contribution-details h2{
+    font-size: 30px;
+    color: #d71400;
+    margin-bottom: 10px;
+
+
+}
+
+.contribution-details ul li{
+
+    color: #ffffff;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.contribution-details ul li span{
+     display: inline-block;
+    width: 75px;
+    vertical-align: top;
+}
+.contribution-details ul li span.about {
+    width: 400px;
+    line-height: 20px;
+    
+}
+/**************************************************************
+                CONTACT US PAGE STYLE.
+***************************************************************/
+.page-info{
+    color: #c1bec5;
+    line-height: 30px;
+}
+    
+        
+
+
+.forms h2{
+    color: #d71400;
+    font-size: 29px;
+    margin-bottom: 10px;
+}
+.forms ul li{
+    margin-bottom: 10px;
+    
+} 
+    
+
+
+.textfields, textarea{
+    color: #2c2b36;
+    width: 590px;
+    border: none;
+    height: 30px;
+    border-radius: 6px;
+    padding-left: 10px;
+
+    outline: none;
+}
+.textarea{
+    height:  120px;
+    resize: none;
+}
+.btns{
+    background-color: #952428;
+    color: #ffffff;
+    padding: 15px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+}
+/***********************************************************
+    SUBSCRIPTION PAGE STYLE.
+************************************************************/
+.subscription-forms ul li {
+    color: #ffffff;
+    font-size: 18px;
+}
+.subscription-forms ul li:nth-child(13) {
+    border-bottom: 1px solid #8e8e8c;
+}
+
+.subscription-forms ul li:nth-child(14) {
+    font-size: 13px;
+}
+
+ 
+  .subscription-forms label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.subscription-forms input[type="radio"] {
+    vertical-align: middle;
+     
+    margin-top: -1px; 
+}
+
+
+
+/***********************************************************
+             1ST TEST  PAGE STYLE.
+**********************************************************/
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.page-info h1{
+ margin-bottom: 20px;
+}
+
+.page-info h3{
+    color: #fff;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.page-info ul  {
+    font-size: 20px;
+    color: #c1bfc4;
+    
+    
+}
+.page-info p{
+    font-size: 20px;
+    color: #c1bfc4;
+}
+.test h3{
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+.test ul li{
+    color: #c1bec5;
+    font-size: 18px;
+    
+
+}
+.test ul li span{
+    display: inline-table;
+    width: 216px;    
+}
+.forms ul li input{
+    height: 40px;
+    padding-left: 10px;
+}
+
+.forms ul li span{
+    display: inline-block;
+    width: 216px;
+}
+.textarea{
+    font-size: 15px;
+}
+.btns{
+    padding: 10px;
+    padding-left: 40px ;
+    padding-right: 40px ;
+    font-size: large;
+    letter-spacing: 0.2px;
+    
+}
+/**********************************************************
+    HOME PAGE STYLE.
+************************************************************/
+
+.home-poster{
+    width: 315px;
+    float: left;
+}
+.home-poster h2{
+    color: #d71400;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 10px 0px;    
+}
+.home-poster p, .mini-poster ul li p{
+    color: #fff;
+    font-size: 16px;
+    line-height: 20px;
+}
+.home-poster p a{
+        color: #d71400;
+        font-size: 20px;
+        text-decoration: none;
+
+}
+.home-poster p a:hover{
+text-decoration: underline;
+color: #8e8e8c;
+}
+
+.mini-poster{
+    width: 315px;
+    float: right;
+}
+.mini-poster ul li{
+    margin-bottom: 10px;
+}
+.mini-poster ul li p a{
+    color: #2c2b36;
+}
+.mini-poster ul li p a:hover{
+    color: #d71400;
+}
+/***********************************************************
+    BANNER PAGE STYLE.
+**********************************************************/
+.main-banner {
+    margin-bottom: 40px;
+}
+.main-banner h2{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.main-banner p {
+    font-size: 16px;
+    color: #ccc;
+}
+.main-banner p a {
+    color: #d71400;
+    text-decoration: none;
+}
+.main-banner p a:hover{
+    text-decoration: underline;
+}
+
+
+.banner {
+    position: relative;
+}
+
+.social-icons {
+    position: absolute;
+    bottom: 0;
+    left: -60px;
+}
+.sidebar-heading h1{
+    color: #d71400;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.ads-1{
+    position: relative;
+}
+.ads-2{
+    position: relative;
+}
+.top-cont{
+    position: absolute;
+    bottom: 0;
+    left: 3px;
+    margin-bottom: 5px;
+
+}
+.forms{
+    list-style-type: none;
+}
+.forms p{
+    border-bottom: 1px solid #8e8e8c ;
+}
+.forms li{
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+.forms ul li{
+    margin-bottom: 16px;
+}
+
+/* Smooth Scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Subtle Animations */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes logoZoom {
+    from {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.page-info, #left-content, #sidebar, .footer-info {
+    animation: fadeInUp 1s ease-out;
+}
+
+/* Responsive for Tablet and Mobile */
+@media (max-width: 768px) {
+    #page-wrap {
+        width: 100%;
+        padding: 0 15px;
+        box-sizing: border-box;
+    }
+    #header {
+        text-align: center;
+    }
+    .top-nav ul li {
+        float: none;
+        display: block;
+        margin: 5px 0;
+    }
+    #left-content {
+        width: 100%;
+        float: none;
+        margin-bottom: 20px;
+    }
+    #sidebar {
+        width: 100%;
+        float: none;
+    }
+    .textfields, textarea {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .btns {
+        width: 100%;
+    }
+    #footer-col-one, #footer-col-two, #footer-col-three {
+        width: 100%;
+        float: none;
+        margin-bottom: 20px;
+    }
+    .ads-1, .ads-2 {
+        width: 48%;
+        float: left;
+    }
+    .home-poster, .mini-poster {
+        width: 100%;
+        float: none;
+        margin-bottom: 20px;
+    }
+    .contribution-thumb {
+        width: 100%;
+        float: none;
+    }
+    .contribution-details {
+        width: 100%;
+        float: none;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+    .page-info h1 {
+        font-size: 36px;
+    }
+    .top-nav ul li a {
+        font-size: 16px;
+    }
+    .ads-1, .ads-2 {
+        width: 100%;
+        float: none;
+    }
+}
